@@ -42,17 +42,6 @@
   "files": [
     "dist"
   ],
-  "release-it": {
-    "git": {
-      "commitMessage": "chore(release): v${version}"
-    },
-    "github": {
-      "release": true
-    },
-    "npm": {
-      "publish": false
-    }
-  },
   "engines": {
     "node": ">=14.0.0"
   },
