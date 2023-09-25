@@ -30,7 +30,7 @@
     "build-storybook": "storybook build",
     "deploy-storybook": "storybook-to-ghpages",
     "release": "yarn build && yarn release-it",
-    "link:self": "yarn yalc publish && yarn link"
+    "link:self": "yarn yalc publish && npm link"
   },
   "tsup": {
     "entry": [
