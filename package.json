@@ -1,13 +1,20 @@
 {
-  "name": "tsup-react-package-starter",
-  "description": "",
+  "name": "@culur/antd-number-picker",
+  "description": "Antd Number Picker",
   "version": "0.0.0",
-  "author": "",
-  "license": "",
-  "keywords": [],
+  "author": "Phạm Hồng Phúc <phamhongphuc.info@gmail.com>",
+  "license": "GNU GPLv3",
+  "keywords": [
+    "antd",
+    "react",
+    "component"
+  ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/culur/antd-number-picker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/culur/antd-number-picker/issues"
   },
   "scripts": {
     "dev": "concurrently \"yarn build --watch\" \"yarn storybook\" \"yarn test\" ",
