@@ -13,8 +13,10 @@ import { useStyleRegister } from '@ant-design/cssinjs';
 
 export type AntdNumberPickerProps = {
   // InputNumber
+  className?: InputNumberProps<number>['className'];
   max: NonNullable<InputNumberProps<number>['max']>;
   min: NonNullable<InputNumberProps<number>['min']>;
+  readOnly?: InputNumberProps<number>['readOnly'];
 } & {
   // Popover
   placement?: PopoverProps['placement'];
@@ -57,7 +59,9 @@ export function AntdNumberPicker(props: AntdNumberPickerProps) {
   const numberPickerCols = props.cols ?? 7;
   const placement = props.placement ?? 'bottomLeft';
   const trigger = props.trigger ?? 'click';
+  const readOnly = props.readOnly ?? false;
   const propsValue = useMemo(() => props.value ?? null, [props.value]);
+  const className = props.className ?? undefined;
 
   //! Style
   const { theme, token } = useToken();
@@ -286,6 +290,8 @@ export function AntdNumberPicker(props: AntdNumberPickerProps) {
       trigger={trigger}
     >
       <InputNumber
+        className={className}
+        readOnly={readOnly}
         min={props.min}
         max={props.max}
         value={value}
