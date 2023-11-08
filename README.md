@@ -4,9 +4,12 @@
 
 [![Npm version](https://img.shields.io/npm/v/@culur/antd-number-picker.svg)](https://www.npmjs.com/package/@culur/antd-number-picker)
 [![Downloads/month](https://img.shields.io/npm/dm/@culur/antd-number-picker.svg)](http://www.npmtrends.com/@culur/antd-number-picker)
+[![GitHub issues](https://img.shields.io/github/issues/culur/antd-number-picker)](https://github.com/culur/antd-number-picker/issues)
+
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 [![Main](https://github.com/culur/antd-number-picker/actions/workflows/main.yml/badge.svg)](https://github.com/culur/antd-number-picker/actions/workflows/main.yml)
 [![Publish](https://github.com/culur/antd-number-picker/actions/workflows/publish.yml/badge.svg)](https://github.com/culur/antd-number-picker/actions/workflows/publish.yml)
-[![GitHub issues](https://img.shields.io/github/issues/culur/antd-number-picker)](https://github.com/culur/antd-number-picker/issues)
+[![CodeFactor](https://www.codefactor.io/repository/github/culur/antd-number-picker/badge)](https://www.codefactor.io/repository/github/culur/antd-number-picker)
 
 ## Install
 
