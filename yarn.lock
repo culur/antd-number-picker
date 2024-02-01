@@ -7109,6 +7109,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/parse-path@npm:^7.0.0":
+  version: 7.0.3
+  resolution: "@types/parse-path@npm:7.0.3"
+  checksum: 21a12c228d38f5a75659dfd7cb127dc2001ed3f6acbd1b2e0575d1348c735594c0bab06a97fe849c151438384829f20ea5971cb045f7ecd37d53c76a9fcb9de3
+  languageName: node
+  linkType: hard
+
 "@types/pretty-hrtime@npm:^1.0.0":
   version: 1.0.1
   resolution: "@types/pretty-hrtime@npm:1.0.1"
@@ -16302,11 +16309,12 @@ __metadata:
   linkType: hard
 
 "parse-url@npm:>=8.1.0":
-  version: 8.1.0
-  resolution: "parse-url@npm:8.1.0"
+  version: 9.0.1
+  resolution: "parse-url@npm:9.0.1"
   dependencies:
+    "@types/parse-path": ^7.0.0
     parse-path: ^7.0.0
-  checksum: b93e21ab4c93c7d7317df23507b41be7697694d4c94f49ed5c8d6288b01cba328fcef5ba388e147948eac20453dee0df9a67ab2012415189fff85973bdffe8d9
+  checksum: 0b01f8680816b766947de659ff9b5ced4e9b2642b0eaab983b01acf8ae2daf15fbefdfddb3248c7b418ba06617a97b0a3715fa0ba3a05c5116f3393b221481b5
   languageName: node
   linkType: hard
 
